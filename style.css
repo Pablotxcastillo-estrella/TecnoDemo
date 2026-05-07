@@ -1,6 +1,6 @@
 body { 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(172, 190, 180);
+    background-color: rgb(207, 228, 216);
     text-align: center;
 }
 
@@ -265,32 +265,50 @@ margin-top: 20px;
 
   .imagen-principal {
 
-    width: 90%;
-    max-width: 360px;
+    width: 80%;
+    max-width: 250px;
     margin: 20px auto;
 
   }
+}
+@media (max-width: 700px) {
 
   .contenedor {
-
-    width: 90%;
-    grid-template-columns: 1fr;
+    width: 92%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
     justify-items: center;
-    gap: 25px;
-    margin: 30px auto;
 
   }
 
   .tarjeta {
-    width: 230px;
-    min-height: 280px;
+
+    width: 100%;
+    min-height: 250px;
+    padding: 18px 10px;
+    border-radius: 22px;
+
+  }
+
+  .tarjeta h2 {
+    font-size: 16px;
+
   }
 
   .tarjeta img {
-    width: 95px;
-    height: 95px;
-    object-fit: contain;
+    width: 80px;
+    height: 80px;
+
+  }
+
+  .tarjeta a {
+    padding: 8px 14px;
+    font-size: 12px;
+
+  }
+
+  .tarjeta p {
+    font-size: 12px;
   }
 
 }
-

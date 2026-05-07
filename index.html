@@ -8,7 +8,10 @@
 </head>
 <body>
    
-    
+    <div class="buscador">
+        <input type="text" id="inputBuscar"placeholder="Buscar" onkeyup="buscarServicio()">
+        <button onclick="buscarservicio()">Buscar</button>
+    </div>
         <section class="hero">
             <div class="hero-texto">
             <h1 class="titulo animado">TecnoDemo</h1>
@@ -21,7 +24,7 @@
      
     <section class="contenedor">
         <div class="tarjeta">
-            <h2>Apps De entretenimiento</h2>
+            <h2>Entretenimiento</h2>
             <img src="entre.jpg" alt="">
             <a href="Entretenimiento.html" target="_blank">Ver mas</a>
             <p>Descubre nuestros mejores planes en apps</p>
@@ -50,6 +53,30 @@
             
         </div>  
     </section>
-    
+    <script>
+        function buscarServicio() {
+
+    let texto = document.getElementById("inputBuscar").value.toLowerCase();
+
+    let tarjetas = document.querySelectorAll(".tarjeta");
+
+    tarjetas.forEach(function(tarjeta) {
+
+      let contenido = tarjeta.innerText.toLowerCase();
+
+      if (contenido.includes(texto)) {
+
+        tarjeta.style.display = "flex";
+
+      } else {
+
+        tarjeta.style.display = "none";
+
+      }
+    });
+  }
+    </script>
+
+  
 </body>
 </html>

@@ -99,11 +99,10 @@ body {
 }
 .imagen-principal { 
     width: 70%;
-    max-width: 550px;
+    max-width: 250px;
     height: auto;
-    border-radius: 15px;
     display: block;
-    margin: 15px auto;
+    margin: 20px auto;
 }
  
 /* contenedor de tarjetas */ 

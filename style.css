@@ -196,6 +196,8 @@ body {
 .buscador button {
     background-color: #006fa8;
 }
+
+
 * { 
     box-sizing: border-box;
 
@@ -338,6 +340,30 @@ margin-top: 20px;
 
   .tarjeta p {
     font-size: 12px;
+  }
+
+}
+@media (max-width: 600px) {
+
+  .buscador {
+    width: 90%;
+    max-width: 350px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+  .buscador input {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+  .buscador button {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+
   }
 
 }

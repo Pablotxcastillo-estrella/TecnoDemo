@@ -36,3 +36,58 @@ body {
 .tarjeta h2 {
     color: beige;
 }
+* { 
+    box-sizing: border-box;
+
+}
+body { 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+/* contenedor normal */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+/* Tarjetas */
+.tarjeta { 
+    width: 220px;
+    text-align: center;
+}
+/* Imagenes */ 
+.tarjeta img { 
+    width: 120px;
+    height: auto;
+}
+/* Para celular */ 
+@media (max_width: 600px) {
+    h1 { 
+        font-size: 34px;
+        margin-top: 40px;
+        padding: 0 10px;
+    }
+
+.contenedor { flex-direction: column;
+align-items: center;
+gap: 25px;
+padding: 10px;
+margin-top: 20px;
+}
+.tarjeta { 
+    width: 85%;
+    max-width: 300px;
+
+}
+.tarjeta img { 
+    width: 140px;
+    height: auto;
+    }
+}

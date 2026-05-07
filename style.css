@@ -355,12 +355,12 @@ margin-top: 20px;
 
   }
   .buscador input {
-    width: 500%;
+    width: 100%;
     font-size: 30px;
     padding: 12px;
   }
   .buscador button {
-    width: 500%;
+    width: 100%;
     font-size: 30px;
     padding: 12px;
 

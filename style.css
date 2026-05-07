@@ -37,22 +37,7 @@ body {
     color: beige;
 
 }  
-.titulo-animado { 
-    font-size: 45px;
-    color: #172b3a;
-    margin: 0 0 10px 0;
-    animation: aparecer 1.2s ease-out;
-} 
-@keyframes aparecer {
-    0% { 
-        opacity: 0;
-        transform: translateY(-40px);
-    }
-    100% { 
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+
 .hero {
     width: 90%;
     max-width: 1000px;
@@ -113,12 +98,12 @@ body {
     margin-bottom: 20px;
 }
 .imagen-principal { 
-    width: 90%;
-    max-width: 650px;
+    width: 70%;
+    max-width: 550px;
     height: auto;
-    border-radius: 20px;
+    border-radius: 15px;
     display: block;
-    margin: 20px auto;
+    margin: 15px auto;
 }
  
 /* contenedor de tarjetas */ 

@@ -346,8 +346,8 @@ margin-top: 20px;
 @media (max-width: 600px) {
 
   .buscador {
-    width: 140%;
-    max-width: 350px;
+    width: 500%;
+    max-width: 550px;
     margin: 20px auto;
     display: flex;
     flex-direction: column;

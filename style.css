@@ -9,6 +9,7 @@ body {
     justify-content: center;
     gap: 30px;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 .tarjeta {
     background-color: rgb(47, 68, 70);

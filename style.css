@@ -374,32 +374,3 @@ margin-top: 20px;
   }
 
 }
-@media (max-width: 768px) {
-
-    .caja-imagen-principal {
-
-        width: 95%;
-
-        height: 360px;
-
-        margin: 40px auto 20px auto;
-
-    }
-
-    .imagen-principal {
-
-        max-width: 380px;
-
-        width: 85%;
-
-    }
-
-    .hero p {
-
-        font-size: 22px;
-
-        width: 85%;
-
-    }
-
-}

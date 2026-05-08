@@ -30,6 +30,16 @@ const datosBusqueda = [
     enlace: "Disney.html"
   },
   {
+    titulo: "Duo de Apps",
+    descripcion: "Elige tus apps favoritas",
+    enlace: "Entretenimiento.html"
+  },
+  {
+    titulo: "Spotify + 1 App",
+    descripcion: "Spotify + App a tu eleccion",
+    enlace: "Spotify.html"
+  },
+  {
     titulo: "HBO Max",
     descripcion: "Películas y series premium",
     enlace: "Hbo.html"
@@ -78,17 +88,7 @@ const datosBusqueda = [
     titulo: "Entretenimiento",
     descripcion: "Netflix,Disney,PrimeVideo",
     enlace: "Entretenimiento.html"
-  } 
-  {
-    titulo: "Duo Apps",
-    descripcion: "Elige tus apps favoritas",
-    enlace: "Entretenimiento.html"
-  },
-  {
-    titulo: "Combo spotify",
-    descripcion: "Spotify + Una App",
-    enlace: "Spotify.html"
-  },
+  }
 ];
 
 

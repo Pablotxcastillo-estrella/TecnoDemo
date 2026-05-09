@@ -20,6 +20,16 @@ const datosBusqueda = [
     enlace: "Duo.html"
   },
   {
+    titulo: "Paramount",
+    descripcion: "Cine y Accion",
+    enlace: "Paramount.html"
+  },
+  {
+    titulo: "4 apps",
+    descripcion: "4 apps a tu eleccion",
+    enlace: "cuatro.html"
+  },
+  {
     titulo: "Trio de Apps",
     descripcion: "3 Apps a tu eleccion",
     enlace: "Trio.html"

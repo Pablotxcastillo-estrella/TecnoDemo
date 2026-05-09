@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> <!-- Botones flotantes lado izquierdo -->
+<div class="botones-flotantes">
+
+  <!-- Botón de inicio -->
+  <a href="index.html" class="btn-flotante btn-inicio" title="Inicio">🏠</a>
+
+  <!-- Botón de búsqueda -->
+  <button class="btn-flotante btn-lupa" onclick="abrirBuscador()" title="Buscar">🔍</button>
+
+  <!-- Botón de WhatsApp -->
+  <a 
+    href="https://wa.me/50232078619?text=Hola,%20solicito%20servicio%20al%20cliente"
+    class="btn-flotante btn-whatsapp"
+    target="_blank"
+    title="WhatsApp"
+  >
+    💬
+  </a> 
+  <a 
+  href="https://www.tiktok.com/@tecnodemo0?_r=1&_t=ZS-96B5ytkvPWu"
+  class="btn-flotante btn-tiktok"
+  target="_blank"
+  title="TikTok"
+>
+  <img src="Tiktok.jpg" alt="TikTok">
+</a>
+
+</div>
+
+
+<!-- Logo flotante lado derecho -->
+<a href="index.html" class="logo-flotante">
+  <img src="Tecno.jpg" alt="Logo Tecno Demo">
+</a>
+
+
+<!-- Ventana del buscador -->
+<div class="buscador-modal" id="buscadorModal">
+  <div class="buscador-contenido">
+
+    <button class="cerrar-buscador" onclick="cerrarBuscador()">×</button>
+
+    <h2>Buscar en Tecno Demo</h2>
+
+    <input 
+      type="text" 
+      id="inputBusqueda" 
+      placeholder="Buscar Netflix, DPI, pasaporte, soporte..."
+      onkeyup="buscarEnPagina()"
+    >
+
+    <div id="resultadosBusqueda"></div>
+
+  </div>
+</div>
+
+
+<!-- Conexión con JavaScript -->
+<script src="script.js"></script>
+    
+     
+    <h1>4 Apps</h1>
+    
+        <br>
+        <br>
+        <div class="tarjeta">
+             <h2>4 Apps a tu eleccion</h2> 
+            <p>6 Mes</p>
+            <img src="cuatro.jpg" alt="">
+            <p>Tu eliges tus apps favoritas✅ <br> Activacion imnediata  <br> Garantia por 6 meses <br>Soporte Tecnico</p> 
+            <br> <a>Q450.oo</a> 
+            <br>
+            <a href="https://wa.me/50232078619?text=Hola%20quiero%20informacion%20sobre%20plan%20de%20cuatro%20apps%20 Seis Meses" target="_blank">comunicate con nosotros</a> 
+            <br>
+            
+        </div> 
+</body>
+</html>

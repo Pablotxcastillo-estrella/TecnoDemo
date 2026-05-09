@@ -15,6 +15,18 @@ const datosBusqueda = [
     enlace: "Renovacion pas.html"
   },
   {
+    titulo: "2 Apps",
+    descripcion: "2 Apps a tu eleccion",
+    enlace: "Duo.html"
+  },
+  {
+    titulo: "Trio de Apps",
+    descripcion: "3 Apps a tu eleccion",
+    enlace: "Trio.html"
+  },
+  
+  
+  {
     titulo: "Mantenimientos",
     descripcion: "Mantenimiento de dispositivos",
     enlace: "Mantenimientos.html"
@@ -28,6 +40,21 @@ const datosBusqueda = [
     titulo: "Disney Plus",
     descripcion: "Películas, series y entretenimiento",
     enlace: "Disney.html"
+  },
+  {
+    titulo: "Chat Gpt",
+    descripcion: "Tu Prudictividad al maximo",
+    enlace: "Chatgp.html"
+  },
+  {
+    titulo: "Vix",
+    descripcion: "Series,Reallitis,novelas",
+    enlace: "Vix.html"
+  }, 
+  {
+    titulo: "CapCut",
+    descripcion: "Edita sin limites y usa tu creatividad al maximo",
+    enlace: "capcut.html"
   },
   {
     titulo: "Duo de Apps",

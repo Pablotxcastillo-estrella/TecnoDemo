@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargo Expreso</title>
+</head>
+<body> 
+
+   <!-- Botones flotantes lado izquierdo -->
+<div class="botones-flotantes">
+
+  <!-- Botón de inicio -->
+  <a href="index.html" class="btn-flotante btn-inicio" title="Inicio">🏠</a>
+
+  <!-- Botón de búsqueda -->
+  <button class="btn-flotante btn-lupa" onclick="abrirBuscador()" title="Buscar">🔍</button>
+
+  <!-- Botón de WhatsApp -->
+  <a 
+    href="https://wa.me/50232078619?text=Hola,%20solicito%20servicio%20al%20cliente"
+    class="btn-flotante btn-whatsapp"
+    target="_blank"
+    title="WhatsApp"
+  >
+    💬
+  </a> 
+  <a 
+  href="https://www.tiktok.com/@tecnodemo0?_r=1&_t=ZS-96B5ytkvPWu"
+  class="btn-flotante btn-tiktok"
+  target="_blank"
+  title="TikTok"
+>
+  <img src="Tiktok.jpg" alt="TikTok">
+</a>
+
+</div>
+
+
+<!-- Logo flotante lado derecho -->
+<a href="index.html" class="logo-flotante">
+  <img src="Tecno.jpg" alt="Logo Tecno Demo">
+</a>
+
+
+<!-- Ventana del buscador -->
+<div class="buscador-modal" id="buscadorModal">
+  <div class="buscador-contenido">
+
+    <button class="cerrar-buscador" onclick="cerrarBuscador()">×</button>
+
+    <h2>Buscar en Tecno Demo</h2>
+
+    <input 
+      type="text" 
+      id="inputBusqueda" 
+      placeholder="Buscar Netflix, DPI, pasaporte, soporte..."
+      onkeyup="buscarEnPagina()"
+    >
+
+    <div id="resultadosBusqueda"></div>
+
+  </div>
+</div>
+
+
+<!-- Conexión con JavaScript -->
+<script src="Copia de script.js"></script>
+     
+    <section class="contenedor"> 
+        <div class="tarjeta">
+            <h2>Cargo Expreso</h2>
+            <h2>Envios Nacionales</h2>
+            <img src="cargo.JPG" alt="Netflix" style="width: 100px; text-align: center;"> <br>
+            <a href="Nacionales.html" target="_blank">Ver mas</a>
+            <h2 style="">Tu mejor opcion</h2>
+        </div>
+        
+        <div class="tarjeta">
+
+                <H2>Cargo Expreso</H2>
+                <h2>Envios Internacionales</h2>
+            <img src="avion.jpg" alt="" style="width: 100px;text-align: center;"> <br>
+            <a href="Internacionales.html" target="_blank">ver mas</a> 
+            <h2>Tu mejor opcion</h2>
+         </div>
+</body>
+</html>

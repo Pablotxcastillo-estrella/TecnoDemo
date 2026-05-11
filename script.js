@@ -34,7 +34,36 @@ const datosBusqueda = [
     descripcion: "3 Apps a tu eleccion",
     enlace: "Trio.html"
   },
-  
+  {
+    titulo: "IPTV Bronce",
+    descripcion: "Entretenimiento en una sola apps",
+    enlace: "Copia de Bronce.html"
+  },
+  {
+    titulo: "IPTV Plata",
+    descripcion: "Entretenimiento en una sola app",
+    enlace: " Copia de Plata.html"
+  },
+  {
+    titulo: "IPTV Oro",
+    descripcion: "Entretenimiento en una sola app",
+    enlace: " Copia de Oro.html"
+  },
+  {
+    titulo: "Cargo Expreso",
+    descripcion: "Envios Nacionales e Internacionales",
+    enlace: "cargo.html"
+  },
+  {
+    titulo: "Cargo Expreso (Internacionales)",
+    descripcion: "Envios Internacionales, tu mejor opcion✅",
+    enlace: "Internacionales.html"
+  },
+  {
+    titulo: "Cargo Expreso (Nacionales)",
+    descripcion: "Envios a todo el pais",
+    enlace: "Nacionales.html"
+  },
   
   {
     titulo: "Mantenimientos",

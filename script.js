@@ -10,6 +10,16 @@ const datosBusqueda = [
     enlace: "Primer pas.html"
   },
   {
+    titulo: "Desarrollo de menus",
+    descripcion: "desarrollo de menu",
+    enlace: "servicios.html"
+  },
+  {
+    titulo: "Electricidad",
+    descripcion: "Servicio de electricidad",
+    enlace: "Electrisidad.html"
+  },
+  {
     titulo: "Renovacion Pasaporte",
     descripcion: "Cita para Renovacion Pasaporte",
     enlace: "Renovacion pas.html"

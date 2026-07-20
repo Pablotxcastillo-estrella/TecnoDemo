@@ -297,13 +297,13 @@ margin-top: 20px;
 
 /* Botón inicio */
 .btn-inicio {
-  background: #686a6b;
+  background: #0a97de;
   color: #f1f5f7;
 }
 
 /* Botón lupa */
 .btn-lupa {
-  background: #686a6b;
+  background: #0a97de;
   color: white;
 }
 /*Botón Tik Tok */
@@ -692,4 +692,20 @@ body {
   }
 }
 
+.tarjeta{
+    position: relative;
+}
+.tarjeta{
+    position: relative;
+}
 
+.Robo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+    z-index: 1000;
+}

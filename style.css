@@ -516,6 +516,11 @@ margin-top: 20px;
     font-size: 15px;
     padding: 14px;
   }  /* Botón TikTok */
+   .buscador-contenido input {
+    font-size: 15px;
+    padding: 14px;
+  }  /* Botón Robot */
+
 
 } 
 /* RESETEO GENERAL */

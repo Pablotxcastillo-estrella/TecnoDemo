@@ -300,7 +300,6 @@ margin-top: 20px;
   background: #0a97de;
   color: #f1f5f7;
 }
-
 /* Botón lupa */
 .btn-lupa {
   background: #0a97de;
@@ -317,7 +316,11 @@ margin-top: 20px;
   background: #25D366;
   color: white;
 }
-
+/* Botón Robot */
+.btn-Robot {
+  background: #f3f7f4;
+  color: white;
+}
 
 /* Logo flotante lado derecho */
 .logo-flotante {
@@ -366,7 +369,18 @@ margin-top: 20px;
   width: 30px;
   height: 30px;
   object-fit: contain;
-}
+
+  }
+ .btn-Robot img { 
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+
+
+  }
+ 
+
+
 
 /* Caja blanca del buscador */
 .buscador-contenido {

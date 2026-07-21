@@ -711,24 +711,6 @@ body {
     width: 100px;
   }
 }
-
-.tarjeta{
-    position: relative;
-}
-.tarjeta{
-    position: relative;
-}
-
-.Robo{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 30px !important;
-    height: 30px !important;
-    max-width: 30px !important;
-    max-height: 50px !important;
-    z-index: 1000;
-}
 /* Botón Flotante de WhatsApp */
 .whatsapp-button {
   position: fixed;
@@ -771,5 +753,70 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   font-family: Arial, Helvetica, sans-serif;
-  pointer-events: none; /* Evita que la burbuja interfiera si el usuario hace clic cerca */
+  pointer-events: none; /* Evita que la burbuja interfiera si el usuario hace clic cerca */} 
+/* ------------------------- */
+/* DISEÑO PARA CELULAR */
+/* ------------------------- */
+
+@media (max-width: 768px) {
+
+  .barra-superior {
+    padding: 10px;
+    align-items: center;
+  }
+
+  .iconos-izquierda {
+    gap: 6px;
+  }
+
+  .iconos-izquierda a {
+    font-size: 18px;
+  }
+
+  .logo-derecha img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .titulo-centro h1 {
+    font-size: 22px;
+  }
+
+  .imagen-principal {
+    margin-top: 10px;
+  }
+
+  .imagen-principal img {
+    width: 95%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .buscador {
+    margin: 25px 10px;
+  }
+
+  .buscador h2 {
+    font-size: 20px;
+  }
+
+  .buscador input {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .contenedor-tarjetas {
+    grid-template-columns: 1fr;
+    width: 90%;
+    gap: 20px;
+  }
+
+  .tarjeta {
+    width: 100%;
+    padding: 18px;
+  }
+
+  .tarjeta img {
+    width: 100px;
+  }
 }

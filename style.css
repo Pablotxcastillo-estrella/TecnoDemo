@@ -518,8 +518,8 @@ margin-top: 20px;
   }  /* Botón TikTok */
    
   .buscador-contenido input {
-    font-size: 30px;
-    padding: 20px;
+    font-size: 15px;
+    padding: 14px;
   }  /* Botón Robot */
 
 
@@ -711,48 +711,24 @@ body {
     width: 100px;
   }
 }
-/* Botón Flotante de WhatsApp */
-.whatsapp-button {
-  position: fixed;
-  left: 20px;
-  bottom: 20px; /* Ajusta este valor si necesitas que esté más arriba */
-  width: 48px;
-  height: 48px;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.2s ease-in-out; /* Animación suave al pasar el mouse */
+
+.tarjeta{
+    position: relative;
+}
+.tarjeta{
+    position: relative;
 }
 
-/* Efecto al pasar el cursor (opcional pero recomendado) */
-.whatsapp-button:hover {
-  transform: scale(1.05);
-}
-
-.whatsapp-button img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  /* Sombra sutil para el ícono */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
-}
-
-/* Burbuja de Texto */
-.whatsapp-text {
-  position: fixed;
-  left: 76px; /* Respeta el margen a la derecha del botón */
-  bottom: 24px; /* Ligeramente más alto que el botón para centrarlo visualmente */
-  background: #ffffff;
-  color: #333333;
-  padding: 10px 16px;
-  border-radius: 25px;
-  font-size: 14px;
-  font-weight: 500;
-  white-space: nowrap;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
-  font-family: Arial, Helvetica, sans-serif;
+.Robo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px !important;
+    height: 30px !important;
+    max-width: 30px !important;
+    max-height: 50px !important;
+    z-index: 1000;
+font-family: Arial, Helvetica, sans-serif;
   pointer-events: none; /* Evita que la burbuja interfiera si el usuario hace clic cerca */} 
 /* Botón WhatsApp */
 .whatsapp-float {
